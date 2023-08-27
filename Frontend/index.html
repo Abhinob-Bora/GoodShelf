@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodShelf</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- link for the icon of the company -->
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <a href="#" class="logo">GoodShelf</a>
+            <!-- cart icon -->
+            <i class='bx bxs-cart-alt ' id="cart-icon"> </i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">
+                    Your Cart
+                </h2>
+                <div class="cart-content">
+            
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">Sub total</div>
+                    <div class="total-price">₹0</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy"> Checkout</button>
+                <!-- Cart Close -->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+            
+
+        </div>
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-title">Value Deals</h2>
+        <div class="shop-content" id="Value Deals">
+        </div>
+
+
+        <h2 class="section-title">Kid Friendly</h2>
+        <div class="shop-content" id="Kid Friendly" >
+
+
+        </div>
+
+
+        <h2 class="section-title">Millet Alternatives</h2>
+        <div class="shop-content" id="Millet Alternatives">
+
+        </div>
+    </section>
+
+    <!-- Link to JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Fetch data from an API
+        fetch("http://localhost:3000/products")
+          .then((response) => response.json())
+          .then((data) => {
+            // Display the product name
+            console.log(data)
+            let nameContainer = document.getElementById("Value Deals");
+            for (const product of data) {
+                if(product.Section==="Value Deals"){
+                    nameContainer = document.getElementById("Value Deals")
+                    nameContainer.innerHTML += `
+                      <div class="product-box">
+                          <img src=${product.image} alt="" class="product-img">
+                          <h2 class="product-title">${product.name}</h2>
+                          <small>${product.OneLiner}</small><br>
+                          <span class="price"> ₹${product.price} / ${product.quantity}</span>
+                          <i class='bx bx-plus-circle add-cart' ></i>
+                      </div>
+                    `;
+                }
+
+                if(product.Section==="Kid Friendly"){
+                    nameContainer = document.getElementById("Kid Friendly")
+                    nameContainer.innerHTML += `
+                      <div class="product-box">
+                          <img src=${product.image} alt="" class="product-img">
+                          <h2 class="product-title">${product.name}</h2>
+                          <small>${product.OneLiner}</small><br>
+                          <span class="price"> ₹${product.price} / ${product.quantity}</span>
+                          <i class='bx bx-plus-circle add-cart' ></i>
+                      </div>
+                    `;
+                }
+
+                if(product.Section==="Millet Alternatives"){
+                    nameContainer = document.getElementById("Millet Alternatives")
+                    nameContainer.innerHTML += `
+                      <div class="product-box">
+                          <img src=${product.image} alt="" class="product-img">
+                          <h2 class="product-title">${product.name}</h2>
+                          <small>${product.OneLiner}</small><br>
+                          <span class="price"> ₹${product.price} / ${product.quantity}</span>
+                          <i class='bx bx-plus-circle add-cart' ></i>
+                      </div>
+                    `;
+                }
+
+
+            }
+          })
+          .catch((error) => {
+            console.error("mayank ka error", error);
+          });
+
+
+
+
+      </script>
+    
+</body>
+</html>

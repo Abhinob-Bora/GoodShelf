@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodShelf</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- link for the icon of the company -->
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <a href="#" class="logo">GoodShelf</a>
+            <!-- cart icon -->
+            <i class='bx bxs-cart-alt ' id="cart-icon"> </i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">
+                    Your Cart
+                </h2>
+                <div class="cart-content">
+            
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">Sub total</div>
+                    <div class="total-price">₹0</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy"> Checkout</button>
+                <!-- Cart Close -->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+            
+
+        </div>
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-title">Value Deals</h2>
+        <div class="shop-content">
+            <div  id="name-container"> </div>
+            
+
+
+
+            <!-- <div class="product-box">
+                <img src="img/1.png" alt="" class="product-img">
+                <h2 class="product-title">MP Sharbati Wheat Fine</h2>
+                <small>makes softest rotis ever</small><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/6.png" alt="" class="product-img">
+                <h2 class="product-title">Fresh Malai Paneer</h2>
+                <small>Prepared fresh daily, no preservatives</small><br>
+                <span class="price"> ₹109 / 200gms</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/3.png" alt="" class="product-img">
+                <h2 class="product-title">Mumbai Ladi Pav</h2>
+                <small>Iconic Mumbai style Ladi at your doorstep</small><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div> -->
+
+            <!-- <div class="product-box">
+                <img src="img/1.png" alt="" class="product-img">
+                <h2 class="product-title">MP Sharbati Wheat Fine</h2>
+                <a>makes softest rotis ever</a><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div> -->
+
+        </div>
+
+
+        <h2 class="section-title">Kid Friendly</h2>
+        <div class="shop-content">
+
+            <div class="product-box">
+                <img src="img/2.png" alt="" class="product-img">
+                <h2 class="product-title">Ragi Flour</h2>
+                <small>Protein rich & gluten-free</small><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/5.png" alt="" class="product-img">
+                <h2 class="product-title">Ragi Idi Dosa Batter</h2>
+                <small>Freshly ground with no added preservatives</small><br>
+                <span class="price"> ₹89 / 1kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/7.png" alt="" class="product-img">
+                <h2 class="product-title">Organic Kashmiri Mamra Almonds</h2>
+                <small>Authentic produce from Kashmir</small><br>
+                <span class="price"> ₹339 / 250gms</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <!-- <div class="product-box">
+                <img src="img/1.png" alt="" class="product-img">
+                <h2 class="product-title">MP Sharbati Wheat Fine</h2>
+                <a>makes softest rotis ever</a><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div> -->
+
+        </div>
+
+
+        <h2 class="section-title">Millet Alternatives</h2>
+        <div class="shop-content">
+
+            <div class="product-box">
+                <img src="img/8.png" alt="" class="product-img">
+                <h2 class="product-title">Bajra Pearl Millet Atta</h2>
+                <small>High fibre and nutrition</small><br>
+                <span class="price"> ₹85 / 1kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/4.png" alt="" class="product-img">
+                <h2 class="product-title">Baked Foxtail Millet Butter Chakli</h2>
+                <small>High-protein chakli with millets, dal & spices</small><br>
+                <span class="price"> ₹129 / 200gms</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/9.png" alt="" class="product-img">
+                <h2 class="product-title">Sour Cream Onion Barley Chips</h2>
+                <small>makes softest rotis ever</small><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div>
+
+            <!-- <div class="product-box">
+                <img src="img/1.png" alt="" class="product-img">
+                <h2 class="product-title">MP Sharbati Wheat Fine</h2>
+                <a>makes softest rotis ever</a><br>
+                <span class="price"> ₹135 / 2kg</span>
+                <i class='bx bx-plus-circle add-cart' ></i>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- Link to JS -->
+    <script>
+        // Fetch data from an API
+        fetch("http://localhost:3000/products")
+          .then((response) => response.json())
+          .then((data) => {
+            // Display the product name
+            console.log(data)
+            const nameContainer = document.getElementById("name-container");
+            for (const product of data) {
+              nameContainer.innerHTML += `<p>${product.name}</p>`;
+            }
+          })
+          .catch((error) => {
+            console.error("mayank ka error", error);
+          });
+      </script>
+
+<script src="js/main.js"></script>
+    
+    
+</body>
+</html>

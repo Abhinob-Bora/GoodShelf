@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "64eae2e26df8718445df1bf2",
+    "name": "MP Sharbati Wheat Fine ",
+    "OneLiner": "tasty",
+    "quantity": "2kg",
+    "price": 135,
+    "Section": "Value Deals",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/9/PK/RG/MW/138818457/wheat-500x500.jpg",
+    "createdAt": "2023-08-27T05:45:06.611Z",
+    "updatedAt": "2023-08-27T05:45:06.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb02110b94b83572cd2b01",
+    "name": "Paneer",
+    "OneLiner": "Damn Tasty",
+    "quantity": "2kg",
+    "price": 135,
+    "Section": "Value Deals",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2021/6/UW/NL/MH/101598065/images-14-1.jpeg",
+    "createdAt": "2023-08-27T07:58:09.485Z",
+    "updatedAt": "2023-08-27T07:58:09.485Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb0396ce706c4ee5bdba35",
+    "name": "Mumbai Ladi Pav",
+    "OneLiner": "Lovely",
+    "quantity": "1kg",
+    "price": 230,
+    "Section": "Millet Alternatives",
+    "image": "https://myfoodstory.com/wp-content/uploads/2021/10/Mumbai-Ladi-Pav-Eggless-Dinner-Rolls-1-1.jpg",
+    "createdAt": "2023-08-27T08:04:38.460Z",
+    "updatedAt": "2023-08-27T08:04:38.460Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb042b4f484bc2f0a9a2a7",
+    "name": "Ragi Flour",
+    "OneLiner": "Lovely",
+    "quantity": "2kg",
+    "price": 135,
+    "Section": "Kid Friendly",
+    "image": "https://himalaya2home.com/cdn/shop/products/Ragi-flour_0fddca18-419d-4737-8af9-6db09a287468_1280x.png?v=1610908228",
+    "createdAt": "2023-08-27T08:07:07.340Z",
+    "updatedAt": "2023-08-27T08:07:07.340Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb04b883985682649e9a6e",
+    "name": "Organic Kashmiri Almonds",
+    "OneLiner": "Best Quality",
+    "quantity": "1kg",
+    "price": 890,
+    "Section": "Millet ALternatives",
+    "image": "https://cdn.vibecity.in/providers/61addf5e51fbc600def7eee9/OrganicKashmiriAlmonds2_4b639e3d-5678-4cf6-9733-f6103d21caeb.jpg",
+    "createdAt": "2023-08-27T08:09:28.627Z",
+    "updatedAt": "2023-08-27T08:09:28.627Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb04dbab499be71a5c7ffc",
+    "name": "Ragi Idi Dosa Batter",
+    "OneLiner": "Best Quality",
+    "quantity": "1kg",
+    "price": 89,
+    "Section": "Kid Friendly",
+    "image": "https://www.kannammacooks.com/wp-content/uploads/ragi-idli-dosai-recipe-1.jpg",
+    "createdAt": "2023-08-27T08:10:03.712Z",
+    "updatedAt": "2023-08-27T08:10:03.712Z",
+    "__v": 0
+  },
+  {
+    "_id": "64eb09e2b2bd277134637c40",
+    "name": "Sour Cream",
+    "OneLiner": "Epic Taste",
+    "quantity": "200gms",
+    "price": 104,
+    "Section": "Millet Alternatives",
+    "image": "https://www.isayorganic.com/cdn/shop/products/Chakli_3_1024x1024@2x.jpg?v=1676874935",
+    "createdAt": "2023-08-27T08:31:30.217Z",
+    "updatedAt": "2023-08-27T08:31:30.217Z",
+    "__v": 0
+  }
+]
